@@ -24,3 +24,29 @@
 
 # Conclusion and Summary
 This assignment is really helpful and practical. I studied how to use docker tool to create an containerization which support me a lot in my future work.
+
+DOCKER FINAL ASSIGNMENT
+Name: Thu Ngoc Nguyen
+Student ID: 000890302
+
+# Challenge 3
+1. downloaded challenge3 zip => unzip and save into challenge3 folder
+2. Check all  Dockerfile for api, db, nginx folder
+3. Create .env file and docker-compose.yml
+3. Correct dockerfile and nginx.conf
+6.  Run docker-compose up –build
+7.Run docker-compose up -d
+8.Checking provided urls
+9. Screen shot results
+9. Run docker-compose ps
+
+# Challenge 4
+1. Continue challenge3
+2. I made several GET requests to "http://localhost:8080/api/stats" and noted that every response 
+3.Run  "docker-compose up -d --scale node-service=3" and I found the error "Docker is trying to bind multiple instances of node-service to the same port (3000) on your host machine"
+5. Update "docker-compose.yml" 
+6. Run "docker-compose up -d --scale node-service=3"
+6. I repeated my GET requests to "http://localhost:8080/api/stats" and observed various hostnames 
+7. Run “docker-compose ps"
+8.Taking Screenshot and copy to folder
+
